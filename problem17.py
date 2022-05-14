@@ -90,7 +90,7 @@ onethousand     11+14*99+854+18873=21124
 
 
 #python has a module that deals with this sort of conversion
-import num2words
+from num2words import num2words
 def letters_count(limit):
     count = sum(len(''.join(''.join(num2words(number).split()).split('-'))) for number in range(1,limit+1))
     return count
