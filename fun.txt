@@ -1,7 +1,0 @@
-just to let you know ,
-i'm creating this file so i can get an idea of how the git thing works
-often times i find this to be pain in the ass
-seriously , it's so easy to just upload via github 
-but this git shit is such a nightmare man.
-
-
