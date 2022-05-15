@@ -19,14 +19,14 @@ def is_prime(num):
 
 
 def _10001st_prime():
-    start = time.time()
-    count = 1
+    count,tar = 1,10001
     num = 3
     while count != tar:
         if is_prime(num):
             count += 1
         num += 2
     return num-2
+
 
   
   
