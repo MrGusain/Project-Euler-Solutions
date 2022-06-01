@@ -68,8 +68,5 @@ for num in range(200,limit):
             amicable_numbers[k] = v
 
 
-ans = 0
-for x,y in amicable_numbers.items():
-    ans +=  (x+y)
 
 print(sum(k+v for k,v in amicable_numbers.items()))
